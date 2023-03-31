@@ -1,11 +1,17 @@
 {
+  "name": "lab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "_dist/index.js",
   "scripts": {
-    "start": "ts-node ./src/app.ts"
+    "start": "node _dist/app.js",
+    "build": "tsc",
+    "dev": "tsc && node _dist/app.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "dethz",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "@types/node": "^18.15.11"
   }
 }
